@@ -194,17 +194,13 @@ garak-tutorial/
 │
 ├── images/
 │
-├── cheat-sheet.md
+├── config.yaml
 │
 ├── how-to-use.md
 │
-├── notes.md
+├── quick-start.md
 │
-├── images/
-│
-├── README.md
-│
-└── .gitignore
+└── README.md
 ```
 
 ## Disclaimer
