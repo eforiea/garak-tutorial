@@ -1,0 +1,21 @@
+system:
+  parallel_requests: 1
+  parallel_attempts: 1
+
+run:
+  generations: 1
+
+  spec:
+    include:
+      - probes.grandma.Substances
+
+plugins:
+  target_type: openai.OpenAICompatible
+  target_name: google/gemma-4-e2b
+
+  generators:
+    openai:
+      OpenAICompatible:
+        uri: http://localhost:1234/v1/
+        max_tokens: 150
+        temperature: 0.7
